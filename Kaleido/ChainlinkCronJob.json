@@ -1,0 +1,18 @@
+{
+    "initiators": [{
+                    "type": "cron",
+                    "params": {
+                                    "schedule": "*/30 * * * * *"
+                    }
+    }],
+    "tasks": [{
+                    "type": "ethtx",
+                    "confirmations": 0,
+                    "params": {
+                                    "address": "0xCC246c6f8d42B7ce8402df49bAFC4c5b92914692",
+                                    "functionSelector": "updateContract()"
+                    }
+    }],
+    "startAt": "2021-05-06T06:33:20Z",
+    "endAt": "2021-05-08T06:40:20Z"
+}
